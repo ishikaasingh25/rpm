@@ -1,0 +1,94 @@
+/* PatientDashboard.css */
+
+
+
+h2 {
+  color: #333;
+  text-align: center;
+  margin-bottom: 20px;
+
+}
+
+#head1 {
+  font-size: 2.5em;
+  color: white;
+  background-color: #2f877e;
+  padding: 25px 0;;
+  margin-top: 0;
+}
+
+.error {
+  color: #ff4d4f;
+  background: #ffe6e6;
+  padding: 10px;
+  border-radius: 4px;
+  margin-bottom: 20px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  background: #fff;
+  margin: 10px 0;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease;
+}
+
+li:hover {
+  transform: translateY(-5px);
+}
+
+li p {
+  margin: 5px 0;
+  font-size: 1.1em;
+  color: #555;
+}
+
+li p:first-child {
+  font-weight: bold;
+  font-size: 1.2em;
+  color: black;
+}
+
+.appointment-form {
+  margin-top: 30px;
+  padding: 20px;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.appointment-form h2 {
+  margin-top: 0;
+  font-size: 1.5em;
+  color: #333;
+}
+
+.appointment-form form {
+  display: flex;
+  flex-direction: column;
+}
+
+.appointment-form input,
+.appointment-form select,
+.appointment-form textarea {
+  margin: 10px 0;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 1em;
+}
+
+.appointment-form input:focus,
+.appointment-form select:focus,
+.appointment-form textarea:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+
